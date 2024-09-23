@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #428885;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-bar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.Para {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.Para h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.Para2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Para2 img {
+    width: 400px;
+    height: auto;
+}
+
+.Para2 p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+}
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-section:nth-child(even) {
+    background-color: #dfdfdf;
+}
+
+.info-section .text {
+    max-width: 600px;
+}
+
+.info-section img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info-section h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.info-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #428885;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #336d6a;
+}
+
+
+footer {
+    background-color: #428885;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+}
+
